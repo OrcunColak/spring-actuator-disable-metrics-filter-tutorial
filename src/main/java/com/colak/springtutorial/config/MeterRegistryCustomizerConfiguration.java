@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.Set;
 
-// The filter setup here will take precedence over the other filters setup as spring beans
+// The filter setup here will take precedence over the other filters setup by PropertiesMeterFilter spring bean
 @Configuration
 public class MeterRegistryCustomizerConfiguration {
 

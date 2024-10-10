@@ -11,6 +11,7 @@ import org.springframework.core.annotation.Order;
 
 import java.util.Set;
 
+// Add filters implemented as Spring beans
 @Profile("beans")
 @Configuration
 public class MeterFilterConfiguration {
